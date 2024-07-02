@@ -11,6 +11,7 @@ export const Pagina2 = () =>{
     const [eNombre,setENombre]=useState("")
     const Resultado = (valor:string)=>{
 
+
         
     }
     const validarNombre = (valor:string)=>{
