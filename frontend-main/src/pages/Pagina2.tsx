@@ -4,14 +4,12 @@ import Form from 'react-bootstrap/Form';
 
 
 export const Pagina2 = () =>{
-    const [edad, setValor1] = useState ("21")
-    const [edad2, setValor2] =useState ("22")
+    const [valor1, setValor1] = useState ("21")
+    const [valor2, setValor2] =useState ("22")
     const [nombre, setNombre] = useState("Guido")
     const [apellido, setApellido] = useState("Araya")
     const [eNombre,setENombre]=useState("")
     const Resultado = (valor:string)=>{
-
-
         
     }
     const validarNombre = (valor:string)=>{
