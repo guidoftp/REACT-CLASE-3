@@ -9,9 +9,7 @@ export default function Home() {
         <Link href="/Pagina1">Pagina 1</Link> 
         <Link href="/Pagina2">Registrar</Link> 
         <Link href="/Pagina3">Registrar</Link> 
-
-        
-
+        <Link href="/Pagina4">Datos</Link> 
       </nav>
     <Perfil Nombre="Guido Andres" Apellido="Araya Gutierrez" edad={21}/>
     <Perfil Nombre="Luis Sebastian" Apellido="Araya Moreno" edad={10}/>
