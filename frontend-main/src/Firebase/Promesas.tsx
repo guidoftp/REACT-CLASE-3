@@ -16,7 +16,8 @@ export const obtenerPersona = async()=>{
             rut:doc.data().rut,
             fechaNacimiento:doc.data().fechaNacimiento,
             nombre:doc.data().nombre,
-            edad:doc.data().edad
+            edad:doc.data().edad,
+            key:doc.id
         }  
         personas.push(persona)
     });
