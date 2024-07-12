@@ -1,5 +1,5 @@
 import { initialStatePersona } from '@/EstadosIniciales/Persona'
-import { obtenerPersona } from '@/Firebase/Promesas'
+import { modificarPersona, obtenerPersona } from '@/Firebase/Promesas'
 import { Persona } from '@/Interfaces/interfaces'
 import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
@@ -29,7 +29,12 @@ export const Pagina5 = () => {
     },[])
 
     const handleModificar =()=>{
-
+        modificarPersona(persona).then(()=>{
+            alert("Se ha modificado con exito")
+        }).catch((e)=>}
+            console.log(e)
+            alert("Algo ocurrio")
+        })
     }
   return (
     <>
