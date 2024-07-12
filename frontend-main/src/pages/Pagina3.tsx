@@ -63,7 +63,8 @@ const Pagina3 = () => {
                 <Form.Text></Form.Text>
             </Form.Group>
 
-            <Button type="button" variant='primary'>Registrar </Button>
+            <Button type="button" variant='primary'
+            onClick={handleRegistrar}>Registrar </Button>
         </Form>
     </>
   )
